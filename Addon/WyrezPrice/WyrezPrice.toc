@@ -1,0 +1,9 @@
+## Interface: 80100
+## Title: Wyrez-Price
+## Author: Darth Affe
+## Notes: Price tooltips from Goblineer (Antonidas) - Based on Petrosz007 Goblineer
+## DefaultState: enabled
+## SavedVariables: Goblineer
+
+data.lua
+WyrezPrice.lua
