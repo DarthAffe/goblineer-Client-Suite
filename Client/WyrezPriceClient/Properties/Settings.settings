@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WyrezPriceClient.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="dataURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="wowPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Program Files (x86)\World of Warcraft</Value>
+    </Setting>
+    <Setting Name="timestampURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

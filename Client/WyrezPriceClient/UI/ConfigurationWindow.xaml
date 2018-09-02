@@ -1,0 +1,18 @@
+﻿<Window x:Class="WyrezPriceClient.UI.ConfigurationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ui="clr-namespace:WyrezPriceClient.UI"
+        mc:Ignorable="d"
+        Title="Wyrez-Price-Client" Width="1280" Height="720">
+    <Window.DataContext>
+        <ui:ConfigurationWindowViewModel />
+    </Window.DataContext>
+    <DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Bottom"
+                Content="Force update" Command="{Binding UpdateCommand}" />
+        
+        <ListView ItemsSource="{Binding Log}" SourceUpdated="ListView_OnSourceUpdated" />
+    </DockPanel>
+</Window>
